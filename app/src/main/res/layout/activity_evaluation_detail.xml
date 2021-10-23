@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EvaluationDetailActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro de Evaluación"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/activity_detail_tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        <TextView
+            android:id="@+id/activity_detail_tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        <TextView
+            android:id="@+id/activity_detail_tv_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peso"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/activity_detail_tv_imc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMC"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/activity_detail_btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            tools:backgroundTint="#009688" />
+
+        <Button
+            android:id="@+id/activity_detail_btn_main"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:textColor="#009688" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
